@@ -1,0 +1,79 @@
+.bandeiras  {
+    width: 20px;
+}
+
+.redes {
+    padding: 490px 0;
+}
+
+.redes ul {
+    list-style-type: none;
+}
+
+.redes img {
+    width:40px;
+    margin: 8px;
+}
+
+.carousel-item img {
+    height: 600px;
+    filter: brightness(60%);
+}
+
+section h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.Offers {
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+
+.articles img {
+    height: 200px;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+@media (max-width: 991.98px) {
+    .offcanvas-start, .offcanvas-end {
+        width: 80%;
+    }
+
+    .carousel-item img {
+        height: 400px;
+    }
+
+    .row-cols-md-3 .col {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .carousel-caption {
+        font-size: 14px; 
+}
+}
+
+@media (max-width: 767.98px) {
+    .row-cols-md-3 .col {
+        flex: 0 0 100%; 
+        max-width: 100%;
+    }
+
+    .offcanvas-start, .offcanvas-end {
+        width: 100%;
+    }
+
+    .carousel-item img {
+        height: 300px;
+    }
+
+    .carousel-caption {
+        font-size: 12px; 
+    }
+}
